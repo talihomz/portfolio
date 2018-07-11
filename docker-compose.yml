@@ -1,10 +1,10 @@
-version: '2.1'
+version: '2'
 services:
  web:
-   build: .
-   container_name: portfolio
+   image: registry.gitlab.com/wahomekevin/web-starter:latest
+   container_name: wahomekevin.com
+   command: npm run dev
    ports:
     - "3000:3000"
    volumes:
-    - .:/app
-    - /app/node_modules
+    - ./src:/app/src
