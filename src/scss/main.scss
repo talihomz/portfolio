@@ -90,20 +90,31 @@
   margin: 48px 0px;
   background: white;
   display: flex;
-  max-height: 540px;
+  height: 480px;
   border-radius: 4px;
   box-shadow: 0 4px 16px grey;
   border: none;
   img {
     flex: 1;
+    width: 400px;
+  }
+  .project-info {
+    flex: 2;
+    padding: 24px;
+    text-align: justify;
+    position: relative;
+    a {
+      text-decoration: none;
+    }
+    p {
+      a {
+        color: $blue;
+      }
+    }    
   }
 }
 
-.project-info {
-  padding: 24px;
-  text-align: left;
-  position: relative;
-}
+
 
 .tech-stack {
   padding: 0;
@@ -121,7 +132,7 @@
     width: auto;
     padding: 8px;
     margin: 8px;
-    border: 2px #5366FF solid;
+    border: 2px $blue solid;
     border-radius: 4px;
   }
 }
