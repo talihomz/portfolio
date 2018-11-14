@@ -1,11 +1,12 @@
-# KATO Website
+# Personal Portfolio
 
-Details to come soon
+My portfolio projects, built with Javascript, HTML, CSS(SASS), C# and Ruby(Rails).
+See it live at: https://www.wahomekevin.com/
 
-## Authors
+
+## Author
 
 * **Kevin Wahome** - [talihomz](https://github.com/talihomz)
-* **Sava Vuckovic** - [savavuckovic](https://github.com/savavuckovic)
 
 ## License
 
